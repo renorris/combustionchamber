@@ -1,0 +1,40 @@
+** COMBUSTION CHAMBER **
+Reese Norris -- 2020
+
+;help
+Shows help page
+
+-- Aviation --
+
+;metar <icao-airport-code>
+Shows METAR report for airport
+
+;atis <icao-airport-code>
+Shows VATSIM atis report for airport if available
+
+;departures <icao-airport-code>
+Shows VATSIM departures for airport
+Aliases: ;deps ;depart
+
+;arrivals <icao-airport-code>
+Shows VATSIM arrivals for airport
+Alias: ;arrs
+
+;diagram <icao-airport-code>
+Shows airport diagram for airport. Currently only supports FAA charts.
+Alias: ;apd
+
+-- Tags --
+
+;tag <tag name> <tag content>
+Fetches a tag, or creates a new one if it doesn't already exist. <tag content> is only used for creation.
+Alias: ;t
+
+;tag edit <tag name> <tag content>
+Edits a tag's content. Only works if you own the tag.
+
+;tag delete <tag name>
+Deletes a tag. Only works if you own the tag.
+
+;tag list
+Lists all tags.
